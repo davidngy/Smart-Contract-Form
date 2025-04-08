@@ -60,6 +60,8 @@ function ContactForm() {
                         onChange={(e) => {
                             setName(e.target.value);
                         }}
+                        
+                        required
                     />
                     </div>
                     <div className="mb-4">
@@ -74,6 +76,8 @@ function ContactForm() {
                         onChange={(e) => {
                             setEmail(e.target.value);
                         }}
+
+                        required
                     />
                     </div>
                     <div className="mb-4">
@@ -90,6 +94,7 @@ function ContactForm() {
                         onChange={(e) => {
                             setMessage(e.target.value);
                         }}
+                        required
                     ></textarea>
                     </div>
                     <button
